@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>더테이스터블</title>
+<link rel="stylesheet" type="text/css" href="css/fullpage.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+<!-- 본문 바로가기 -->
+<div id="skipNavi"><a href="#container">본문바로가기</a></div>
+<!-- //본문 바로가기 -->
+<div id="wrap">
+	<!-- header -->
+	<div id="header">
+		<!-- header_wrap -->
+		<div class="header_wrap">
+			<!-- header_inner -->
+			<div class="header_inner">
+				<!-- 로고 -->
+				<h1 class="logo"><a href="#">더테이스터블</a></h1>
+				<!-- 주메뉴 -->
+				<nav class="gnb">
+					<h2 class="blind">주메뉴</h2>
+					<ul>
+					<li><a href="#">Company</a>
+						<ul>
+						<li><a href="#">슬로건</a></li>
+						<li><a href="#">비전</a></li>
+						<li><a href="#">걸어온길</a></li>
+						<li><a href="#">CI</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Business</a>
+						<ul>
+						<li><a href="#">fine-dining</a></li>
+						<li><a href="#">O2O</a></li>
+						<li><a href="#">consession</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Brand</a>
+						<ul>
+						<li><a href="#">63레스토랑</a></li>
+						<li><a href="#">63컨벤션</a></li>
+						<li><a href="#">플라자 웨딩</a></li>
+						<li><a href="#">도원스타일</a></li>
+						<li><a href="#">티원</a></li>
+						<li><a href="#">백리향스타일</a></li>
+						<li><a href="#">63다이닝키트</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Recruit</a>
+						<ul>
+						<li><a href="#">인재상</a></li>
+						<li><a href="#">복리후생</a></li>
+						<li><a href="#">채용정보</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Customer Center</a>
+						<ul>
+						<li><a href="#">고객의소리</a></li>
+						<li><a href="#">입점문의</a></li>
+						<li><a href="#">경영정보</a></li>
+						</ul>
+					</li>
+					</ul>
+				</nav>
+				<!-- 검색버튼 -->
+				<div class="scrh_box"><!--class on-->
+					<form method="get" action="/" id="searchForm">
+						<fieldset>
+							<legend class="blind">통합검색</legend>
+							<label for="srch_input" class="blind">검색어를 입력해주세요.</label>
+							<input type="search" id="srch_input" />
+							<label for="srch_submit" class="inp_submit">찾아보기</label>
+							<input type="submit" id="srch_submit" class="blind"/>
+						</fieldset>
+					</form>
+				</div>
+				<!-- 전체메뉴버튼 -->
+				<div class="allmenu"> <!-- class on -->
+					<a href="#">
+						<span><span>MENU</span></span>
+					</a>
+				</div>
+			</div>
+			<!-- //header_inner -->
+		</div>
+		<!-- //header_wrap -->
+	</div>
+	<!-- //header -->
+	<hr />
+	<!-- aside -->
+	<div class="aside">
+		<!-- language -->
+		<div class="language">
+			<div class="box">
+				<a href="#"><span>ENG +</span></a>
+			</div>
+		</div>
+		<!-- family -->
+		<div class="family">
+			<div class="box">
+				<a href="#"><span>Family Site +</span></a>
+			</div>
+			<div class="linkbox">
+				<ul>
+				<li><a href="#">한화그룹</a></li>
+				<li><a href="#">한화호텔앤드리조트</a></li>
+				<li><a href="#">더플라자 호텔</a></li>
+				<li><a href="#">아쿠아플라넷</a></li>
+				<li><a href="#">티원/도원스타일</a></li>
+				<li><a href="#">63레스토랑</a></li>
+				<li><a href="#">63컨벤션</a></li>
+				<li><a href="#">플라자웨딩</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- scroll -->
+		<div class="scroll">
+			<div class="box">
+				<div class="txtbox">
+					<span class="icon"></span>
+					<span class="txt">Scroll to Explore</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="allmenu_box">
+		<div class="menubox">
+			<nav class="snb">
+				<h2 class="blind">주메뉴</h2>
+				<ul>
+				<li><a href="#">Company</a>
+					<ul>
+					<li><a href="#">슬로건</a></li>
+					<li><a href="#">비전</a></li>
+					<li><a href="#">걸어온길</a></li>
+					<li><a href="#">CI</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Business</a>
+					<ul>
+					<li><a href="#">fine-dining</a></li>
+					<li><a href="#">O2O</a></li>
+					<li><a href="#">consession</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Brand</a>
+					<ul>
+					<li><a href="#">63레스토랑</a></li>
+					<li><a href="#">63컨벤션</a></li>
+					<li><a href="#">플라자 웨딩</a></li>
+					<li><a href="#">도원스타일</a></li>
+					<li><a href="#">티원</a></li>
+					<li><a href="#">백리향스타일</a></li>
+					<li><a href="#">63다이닝키트</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Recruit</a>
+					<ul>
+					<li><a href="#">인재상</a></li>
+					<li><a href="#">복리후생</a></li>
+					<li><a href="#">채용정보</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Customer Center</a>
+					<ul>
+					<li><a href="#">고객의소리</a></li>
+					<li><a href="#">입점문의</a></li>
+					<li><a href="#">경영정보</a></li>
+					</ul>
+				</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<!-- //aside -->
+	<!-- container -->
+	<div id="container">
+		<!-- main_visual -->
+		<div class="content0">
+			<section id="section0" class="main_visual">
+				<h2>음식, 문화, 그리고 사람을<br>연결 합니다.<span>Connecting Food, culture, and People</span></h2>
+				<video muted autoplay loop>
+					<source src="video/mov_new.mp4" type="video/mp4"/>
+					Your browser does not support HTML5 video.
+				</video>
+			</section>
+		</div>
+		<!-- //main_visual -->
+		<!-- content1 -->
+		<div class="content1">
+			<section id="section1" class="business">
+				<h2 class="blind">더테이스터블의 주요사업</h2>
+				<ul>
+					<li>
+						<div class="imgbox">
+							<img src="img/img_section2_1.jpg" alt="Fine-Dining 외식 사업" />
+						</div>
+						<div class="contbox">
+							<h3><span>Fine-Dining</span>외식 사업</h3>
+						</div>
+						<div class="bg"></div>
+						<div class="over">
+							<h3><span>Fine-Dining</span>외식 사업</h3>
+							<p>고객 한분 한분의 높은 가치에<br>맞는 음식과 공간을 제공</p>
+							<a href="#">자세히 보기</a>
+						</div>
+					</li>
+					<li>
+						<div class="imgbox">
+							<img src="img/img_section2_2.jpg" alt="O2O 온라인 투 오프라인 사업" />
+						</div>
+						<div class="contbox">
+							<h3><span>O2O</span>온라인 투 오프라인 사업</h3>
+						</div>
+						<div class="bg"></div>
+						<div class="over">
+							<h3><span>O2O</span>온라인 투 오프라인 사업</h3>
+							<p>온라인을 통해 접한 고객님들이 다시<br> 당사 오프라인 매장에 재방문하는 라이프스타일</p>
+							<a href="#">자세히 보기</a>
+						</div>
+					</li>
+					<li>
+						<div class="imgbox">
+							<img src="img/img_section2_3.jpg" alt="Concession 컨세션사업" />
+						</div>
+						<div class="contbox">
+							<h3><span>Concession</span>컨세션사업</h3>
+						</div>
+						<div class="bg"></div>
+						<div class="over">
+							<h3><span>Concession</span>컨세션사업</h3>
+							<p>다중복합시설과 골프장 같은<br> 레저시설 내 식음 사업권을 위탁</p>
+							<a href="#">자세히 보기</a>
+						</div>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<!-- //content1 -->
+		<!-- content2 -->
+		<div class="content2">
+			<section id="section2" class="about black">
+				<div class="titleBox">
+					<h2><span class="tit1">음식, 문화, 그리고 사람</span><span class="tit2">About</span> 더테이스터블</h2>
+					<p>더테이스터블은 컨텐츠 경쟁력을 기반으로 우리의 컨텐츠를 온/오프라인 플랫폼을 통해 고객에게 제공합니다</p>
+				</div>
+				<ul>
+				<li>
+					<p class="icon"><img src="img/icon_section3_1.png" alt="15개점 브랜드 레스토랑" /></p>
+					<p class="num"><strong>15</strong>개점</p>
+					<p class="txt">브랜드 레스토랑</p>
+				</li>
+				<li>
+					<p class="icon"><img src="img/icon_section3_2.png" alt="4개점 컨벤션" /></p>
+					<p class="num"><strong>4</strong>개점</p>
+					<p class="txt">컨벤션</p>
+				</li>
+				<li>
+					<p class="icon"><img src="img/icon_section3_3.png" alt="3개점 골프장 F&amp;B" /></p>
+					<p class="num"><strong>3</strong>개점</p>
+					<p class="txt">골프장 F&amp;B</p>
+				</li>
+				<li>
+					<p class="icon"><img src="img/icon_section3_4.png" alt="2개소 휴게소 F&amp;B" /></p>
+					<p class="num"><strong>2</strong>개소</p>
+					<p class="txt">휴게소 F&amp;B</p>
+				</li>
+				<li>
+					<p class="icon"><img src="img/icon_section3_5.png" alt="3개점 캐주얼 레스토랑" /></p>
+					<p class="num"><strong>3</strong>개점</p>
+					<p class="txt">캐주얼 레스토랑</p>
+				</li>
+				</ul>
+			</section>
+		</div>
+		<!-- //content2 -->
+		<!-- content3 -->
+		<div class="content3">
+			<section id="section3" class="brand black on">
+				<div class="brandBox">
+					<div class="titleBox">
+						<h2><span>당신에게 행복을 선사합니다</span>Brand</h2>
+						<p>더테이스터블는 플랫폼 상품을 기획하고 판매하여 최고의 브랜드로 고객님께 보답하고자 합니다</p>
+					</div>
+					<div class="listwrap">
+						<div class="listInner">
+							<div class="listBox">
+								<ul class="list">
+									<li>
+										<div class="imgbox">
+											<a href="#">
+												<img src="img/img_brand1.jpg" alt="Taoyuen Style" />
+												<span class="txt">Taoyuen Style</span>
+												<span class="overbox">
+													<span class="bg"></span>
+													<span class="more">자세히보기</span>
+												</span>
+											</a>
+										</div>
+										<div class="title">
+											<img src="img/tit_brand1.png" alt="Taoyuen Style" />
+										</div>
+									</li>
+									<li>
+										<div class="imgbox">
+											<a href="#">
+												<img src="img/img_brand2.jpg" alt="T-won" />
+												<span class="txt">T-won</span>
+												<span class="overbox">
+													<span class="bg"></span>
+													<span class="more">자세히보기</span>
+												</span>
+											</a>
+										</div>
+										<div class="title">
+											<img src="img/tit_brand2.png" alt="T-won" />
+										</div>
+									</li>
+									<li>
+										<div class="imgbox">
+											<a href="#">
+												<img src="img/img_brand3.jpg" alt="63 Restaurant" />
+												<span class="txt">63 Restaurant</span>
+												<span class="overbox">
+													<span class="bg"></span>
+													<span class="more">자세히보기</span>
+												</span>
+											</a>
+										</div>
+										<div class="title">
+											<img src="img/tit_brand3.png" alt="63 Restaurant" />
+										</div>
+									</li>
+									<li>
+										<div class="imgbox">
+											<a href="#">
+												<img src="img/img_brand4.jpg" alt="63 Convention" />
+												<span class="txt">63 Convention</span>
+												<span class="overbox">
+													<span class="bg"></span>
+													<span class="more">자세히보기</span>
+												</span>
+											</a>
+										</div>
+										<div class="title">
+											<img src="img/tit_brand4.png" alt="63 Convention" />
+										</div>
+									</li>
+									<li>
+										<div class="imgbox">
+											<a href="#">
+												<img src="img/img_brand5.jpg" alt="63 Dining Kit" />
+												<span class="txt">63 Dining Kit</span>
+												<span class="overbox">
+													<span class="bg"></span>
+													<span class="more">자세히보기</span>
+												</span>
+											</a>
+										</div>
+										<div class="title">
+											<img src="img/tit_brand5.png" alt="63 Dining Kit" />
+										</div>
+									</li>
+									<li>
+										<div class="imgbox">
+											<a href="#">
+												<img src="img/img_brand6.jpg" alt="Plaza Wedding" />
+												<span class="txt">Plaza Wedding</span>
+												<span class="overbox">
+													<span class="bg"></span>
+													<span class="more">자세히보기</span>
+												</span>
+											</a>
+										</div>
+										<div class="title">
+											<img src="img/tit_brand6.png" alt="Plaza Wedding" />
+										</div>
+									</li>
+									<li>
+										<div class="imgbox">
+											<a href="#">
+												<img src="img/img_brand7.jpg" alt="Baeknihyang Style" />
+												<span class="txt">Baeknihyang Style</span>
+												<span class="overbox">
+													<span class="bg"></span>
+													<span class="more">자세히보기</span>
+												</span>
+											</a>
+										</div>
+										<div class="title">
+											<img src="img/tit_brand7.png" alt="Baeknihyang Style" />
+										</div>
+									</li>
+								</ul>
+							</div>
+							<ul class="paging disabled">
+								<li class="dot active"><span></span></li>
+								<li class="dot"><span></span></li>
+								<li class="dot"><span></span></li>
+								<li class="dot"><span></span></li>
+								<li class="dot"><span></span></li>
+								<li class="dot"><span></span></li>
+								<li class="dot"><span></span></li>
+							</ul>
+						</div>
+						<div class="btnBox">
+							<a href="#none" class="prev_btn">이전으로 가기</a>
+							<span class="icon"></span>
+							<a href="#none" class="next_btn">다음으로 가기</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- //content3 -->
+		<!-- content4 -->
+		<div class="content4">
+			<section id="section4" class="inquiry black on">
+				<h2 class="blind">입점문의</h2>
+				<div class="customerBox">
+					<div class="cBox leftBox">
+						<h3>입점문의<span>더테이스터블은 항상 동반성장을 목표로 합니다.</span></h3>
+						<div class="inputBox">
+							<form action="/" method="post">
+								<fieldset>
+									<legend class="blind">입점문의</legend>
+									<ul>
+									<li>
+										<label for="fullname">이름</label>
+										<input type="text" id="fullname" maxlength="15" placeholder="이름을 입력해주세요" />
+									</li>
+									<li>
+										<label for="phone">연락처</label>
+										<input type="text" id="phone" maxlength="12" placeholder="-제외 숫자로 입력해주세요" />
+									</li>
+									<li>
+										<label for="context">내용</label>
+										<textarea name="context" id="context" cols="30" rows="10" placeholder="내용을 입력해주세요"></textarea>
+									</li>
+									</ul>
+									<div class="chbox">
+										<input type="checkbox" name="chbox" id="chbox" required />
+										<label for="chbox">모든 약관을 확인하고 동의합니다 </label><a href="#none">(내용보기)</a>
+									</div>
+									<div class="btnBox">
+										<div class="tel">
+											<strong>고객센터</strong>
+											<a href="#none">1577-1469</a>
+										</div>
+										<div class="btn">
+											<a href="#none"><span>입점문의</span></a>
+										</div>
+									</div>
+								</fieldset>
+							</form>
+						</div>
+					</div>
+					<div class="cBox rightBox">
+						<div class="box">
+							<div class="inquiryBox">
+								<h3>Customer Voice<span>더테이스터블은 항상 여러분의 이야기를 기다립니다<br>칭찬, 문의 및 제안을 남겨주세요</span></h3>
+								<div class="btnBox">
+									<div class="tel">
+										<strong>고객센터</strong>
+										<a href="#none">1577-1469</a>
+									</div>
+									<div class="btn">
+										<a href="#none"><span>고객의 소리 문의</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="box">
+							<div class="recruitBox">
+								<h3>Recruit<span>더테이스터블과 함께하길 원하는 역량있는 인재를 모십니다.</span></h3>
+								<ul>
+								<li><a href="#none">[전체] <span>티원/ 도원스타일 홀, 주방 직원 모집</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="btn_top"><a href="#none">TOP</a></div>
+			</section>
+		</div>
+		<!-- //content4 -->
+		<!-- footer -->
+		<div class="content5 auto-height">
+			<section id="section5" class="black">
+				<!-- footer_inner -->
+				<footer id="footer">
+					<div class="footer_inner">
+						<!-- footer_info -->
+						<p class="footer_logo">더테이스터블</p>
+						<!-- footer_menu -->
+						<div class="footer_menu">
+							<div>
+								<a href="#">개인정보처리방침</a>
+								<a href="#">이메일 무단 수집거부</a>
+							</div>
+							<ul>
+							<li><a href="#">회사소개</a></li>
+							<li><a href="#">사업분야</a></li>
+							<li><a href="#">브랜드소개</a></li>
+							<li><a href="#">인재영입</a></li>
+							<li><a href="#">고객의 소리</a></li>
+							</ul>
+						</div>
+						<div class="footer_info">
+							<address>서울특별시 영등포구 63로 40 라이프오피스텔 102호 (여의도동)</address>
+							<p><strong>Tel.</strong> <a href="#">1577-1469</a><span></span><strong>Fax.</strong> 02-786-9677</p>
+							<p class="copyright">Copyright &copy; 2021 더테이스터블 주식회사. All rights Reserved</p>
+						</div>
+					</div>
+				</footer>
+				<!-- //footer_inner -->
+			</section>
+		</div>
+	</div>
+	<!-- //container -->
+	<!-- footnav -->
+	<div class="footnav">
+		<p class="b_txt">Connecting</p>
+		<ul class="pages">
+		<li><a href="#none"><span></span></a></li>
+		<li><a href="#none"><span></span></a></li>
+		<li class="black"><a href="#none"><span></span></a></li>
+		<li class="black"><a href="#none"><span></span></a></li>
+		<li class="black"><a href="#none"><span></span></a></li>
+		</ul>
+	</div>
+	<!-- //footnav -->
+</div>
+</body>
+</html>
