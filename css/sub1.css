@@ -67,7 +67,7 @@ label[for="srch_submit"]{cursor: pointer;}
 #header nav.gnb > ul > li{
 	display: inline-block;  position: relative; 
 	min-width: 75px; height: 58px; margin: 0 -6px; padding: 42px 36px 0 36px;
-	vertical-align: top; transition: all 0.3 ease-in-out;
+	vertical-align: top; transition: all 0.3s ease-in-out;
 }
 #header nav.gnb > ul > li > a{
 	display:block; font-weight:400; font-size:18px; color:#fff; 
@@ -239,7 +239,7 @@ body.sub .aside .scroll{display: none;}
 .allmenu_box .gnb > ul > li{ margin:34px 0; font-size:48px; line-height:36px; min-height:30px; color:#333; font-weight:300; transition:all 0.3s 0.3s ease-in-out; }
 .allmenu_box .gnb > ul > li > a{z-index:3; position:relative; display:inline-block; padding-right:45px; line-height: 48px; transition:all 0.5s 0.0s ease-in-out; color:#333; font-weight:300;  background-color:#fff; }
 .allmenu_box .gnb > ul > li > a:before{ content:""; display:block; width:0; height:1px; position:absolute; left:0; top:50%; background-color:#333; }
-.allmenu_box .gnb > ul > li > ul{display:none; visibility:hidden position:relative; padding:0 0 20px 550px; margin:0; top:-34px;}
+.allmenu_box .gnb > ul > li > ul{display:none; visibility:hidden; position:relative; padding:0 0 20px 550px; margin:0; top:-34px;}
 .allmenu_box .gnb > ul > li.hover ul:before{ 
 	content:""; display:block; width:0; height:1px; 
 	z-index:2; position:absolute; left:0; top:8px; 
